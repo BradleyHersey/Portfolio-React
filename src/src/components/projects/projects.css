@@ -1,0 +1,57 @@
+.ProjectJumbotron{
+    padding: 1%;
+    margin: 0% 2% 0% 24%;
+    border-radius: 25px;
+    width: 50%;
+    background-color: grey;
+    border: solid 2px black;
+    color:black;
+     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+.ProjectTitle{
+    margin: 0 0 5px 25px;
+    text-align:left;
+    color:black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+.thumbnail{
+    width: 75%;
+    border-radius: 20px;
+    background-color: black;
+    color: antiquewhite;
+   
+}
+img{
+    
+    border-radius: 25px;
+}
+.ProjectH5{
+    font-size: 25px;
+    text-align: center;
+    color:whitesmoke;
+    text-decoration-line: underline;
+}
+.ProjectP{
+    color:whitesmoke;
+}
+.ProjectH6{
+    font-size: 20px;
+    text-align: center;
+    color:whitesmoke;
+    text-decoration-line: underline;
+
+}
+.ProjectRole{
+    font-size: 15px;
+    text-align: center;
+    color:red;
+    
+}
+.ProjectButtons{
+    text-align: center;
+}
+
+
+

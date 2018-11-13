@@ -1,0 +1,22 @@
+.navbar {
+    text-align: center;
+    margin: 1% 0% 2% 15%;
+    width: 65%;
+    height: 40%;
+    background-color: transparent;
+    font-family: 'Fredoka One', cursive;
+    color:black;
+    font-size: 25px;
+    border-style: solid;
+    border-color:black;
+    border-width: 3px;
+    border-radius: 20px;
+    /* text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; */
+
+}
+#home{
+    font-size: 50%;
+}
+button{
+    margin: 2%;
+}

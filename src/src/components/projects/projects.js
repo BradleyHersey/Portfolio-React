@@ -1,6 +1,6 @@
 import React from 'react';
 import "./projects.css";
-import { Jumbotron,Grid,Row,Thumbnail,Col} from 'react-bootstrap';
+import { Jumbotron,Grid,Row,Thumbnail,Col,Carousel} from 'react-bootstrap';
 import Button from 'react-bootstrap/lib/Button';
 import Project1Food from '../../assets/images/foodD1.jpg';
 import ProjectLODI from '../../assets/images/home.jpg';
@@ -11,6 +11,7 @@ import ProjectWorldTrivia from'../../assets/images/trivia.jpg';
 import ProjectBamazon from'../../assets/images/bamazonp.jpg';
 import ProjectTrain from '../../assets/images/train2.jpg';
 import ProjectFriendFinder from '../../assets/images/friendfinder.jpg';
+
 const myProject =(props)=>(
     <div className="project">
 
@@ -172,6 +173,6 @@ const myProject =(props)=>(
   </Row>
 </Grid>
 
-</div> 
+</div>
 )
 export default myProject;

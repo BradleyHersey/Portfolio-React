@@ -30,14 +30,14 @@ const NavBar1 = (props) =>
         <MenuItem eventKey={3.3}>Separated link</MenuItem> */}
       </NavDropdown>
     </Nav>
-    {/* <Nav pullRight>
-      <NavItem eventKey={1} href="#">
-        Link Right
+     {/* <Nav pullRight>
+      <NavItem eventKey={1} href="https://bradleyhersey.github.io/Bootstrap-Portfolio/">
+        My First Portfolio
       </NavItem>
-      <NavItem eventKey={2} href="#">
-        Link Right
+      <NavItem eventKey={2} href="/allprojects">
+        allprojects
       </NavItem>
-    </Nav> */}
+    </Nav>  */}
   </Navbar.Collapse>
 </Navbar>;
 

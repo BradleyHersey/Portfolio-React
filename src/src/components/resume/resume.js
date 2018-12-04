@@ -1,23 +1,69 @@
 import React from 'react';
 import "./resume.css";
-import { Jumbotron,ListGroup,ListGroupItem,Row,Col,Grid,Media} from 'react-bootstrap';
+import { Jumbotron,Table,ListGroup,ListGroupItem,Row,Col,Grid,Media} from 'react-bootstrap';
 import Button from 'react-bootstrap/lib/Button';
 
 const myResume =(props)=>(
     <div className="resume">
 
-    
-        <Jumbotron>
-        <ListGroup>
-  <ListGroupItem header="My Skills"></ListGroupItem>
-  <ListGroupItem >HTML/Bootstrap</ListGroupItem>
+  
+      
+  <Jumbotron className='Jumbotronskill'>
+  <Table responsive>
+  <thead>
+    <tr>
+      <th>My Skill List</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CSS/CSS Grid</td>
+      <td>HMTL</td>
+      </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>jQuery</td>
+    </tr>
+    <tr>
+    <td>React</td>
+   <td>BootStrap</td>
+    </tr>
+    <tr>
+    <td>MongoDB</td>
+      <td>mySQL</td>
+    </tr>
+    <tr>
+      <td>Tech-savvy</td>
+      <td>Supervisor</td></tr>
+    <tr>
+    <td>Installer</td>
+      <td>Machine Operator</td>
+    </tr>
+    <tr>
+      <td>Manual laborer</td>
+      <td>Customer Service</td>
+      </tr>
+      <tr>
+    <td>Postive Attitude</td>
+    </tr>
+    <tr>
+      <td>Quick Leaner</td>
+    </tr>
+    <tr> 
+       <td>Multi-lingual(English,Afrikaans,Zulu)</td>
+    </tr>
+  </tbody>
+</Table>
+    {/* <ListGroup className='ListofSkills1'>
+ 
   <ListGroupItem>CSS/CSS Grid</ListGroupItem>
   <ListGroupItem>JavaScript</ListGroupItem>
   <ListGroupItem>jQuery</ListGroupItem>
   <ListGroupItem>React</ListGroupItem>
-  <ListGroupItem>NODE.JS</ListGroupItem>
+  <ListGroupItem>React</ListGroupItem>
   <ListGroupItem>MongoDB</ListGroupItem>
   <ListGroupItem>mySQL</ListGroupItem>
+ 
   <ListGroupItem>Tech-savvy</ListGroupItem>
   <ListGroupItem>Supervisor</ListGroupItem>
   <ListGroupItem>Installer/Manual laborer</ListGroupItem>
@@ -25,48 +71,10 @@ const myResume =(props)=>(
   <ListGroupItem>Customer Service</ListGroupItem>
   <ListGroupItem>Postive Attitude/Quick Leaner</ListGroupItem>
   <ListGroupItem>Multi-lingual(English,Afrikaans,Zulu)</ListGroupItem>
-</ListGroup>;
-      </Jumbotron>;
-  
-      <Grid>
-  <Row className="show-grid">
-    <Col xs={12} md={8}>
-      <code>{'<Col xs={12} md={8} />'};</code>
-    </Col>
-    <Col xs={6} md={4}>
-      <code>{'<Col xs={6} md={4} />'}</code>
-    </Col>
-  </Row>
+</ListGroup>; */}
+    </Jumbotron>
 
-  <Row className="show-grid">
-    <Col xs={6} md={4}>
-      <code>{'<Col xs={6} md={4} />'}</code>
-    </Col>
-    <Col xs={6} md={4}>
-      <code>{'<Col xs={6} md={4} />'}</code>
-    </Col>
-    <Col xsHidden md={4}>
-      <code>{'<Col xsHidden md={4} />'}</code>
-    </Col>
-  </Row>
-
-  <Row className="show-grid">
-    <Col xs={6} xsOffset={6}>
-      <code>{'<Col xs={6} xsOffset={6} />'}</code>
-    </Col>
-  </Row>
-
-  <Row className="show-grid">
-    <Col md={6} mdPush={6}>
-      <code>{'<Col md={6} mdPush={6} />'}</code>
-    </Col>
-    <Col md={6} mdPull={6}>
-      <code>{'<Col md={6} mdPull={6} />'}</code>
-    </Col>
-  </Row>
-</Grid>;
-<div>
-  <Media>
+  <Media className='mainMedia'>
     <Media.Left align="top">
       {/* <img width={64} height={64} src="/thumbnail.png" alt="thumbnail" /> */}
     </Media.Left>
@@ -92,14 +100,38 @@ const myResume =(props)=>(
       <Media.Heading>EMPLOYMENT</Media.Heading>
       <p>
         <h4> 
-          Ramco Speicalties Inc. |5445 Husdon Industrial Parkway,Hudson OH 44236
-          <h6> Machine Operator/Material Handler -September 2015-present</h6>
-          <h5><strong>JOB RESPONISI</strong></h5>
-        </h4>
+          Ramco Speicalties Inc. |5445 Husdon Industrial Parkway,Hudson OH 44236</h4>
+          <h6> <em>Machine Operator/Material Handler -September 2015-present</em></h6>
+          <h5><strong>JOB RESPONSIBLITIES</strong></h5>
+        <p>Operate machinery, attend to machine malfunctions, sorting product, fork-lift driving,<br/>
+        administrative paperwork and documentation of product. Applied best practices of software development while staying abreast of advances in the practice.<br/>
+        Worked with product designers and product managers to design user interactions in applications.<br/>
+        Conducted computer diagnostics to investigate and resolve problems and provide<br/>
+        technical assistance and support. </p>
+      </p>
+    </Media.Body>
+    <Media.Body>
+      <p>
+        <h4> 
+         Pro-Model & Talent Management | 3421 Ridgewood Rd,Fairlawn, Ohio 44333</h4>
+          <h6> <em>Promtional Worker/Model -December 2014 -September 2015</em></h6>
+          <h5><strong>JOB RESPONSIBLITIES</strong></h5>
+        <p>Team-lead/anchor recruiter.Set and achieve team goals. Self-motivated worker. </p>
+      </p>
+    </Media.Body>
+    <Media.Body>
+      <p>
+        <h4> 
+         Blind Rage & Curtains | 14th Ave , Northmead ,Benoni, Gauteng, South Africa</h4>
+          <h6> <em>Installer/Team Leader/Field Supervisor May 2009-December 2014</em></h6>
+          <h5><strong>JOB RESPONSIBLITIES</strong></h5>
+        <p>Installation supervisor, programmed motorized blinds, managed custom oeders and <br/>
+        sopplies, transported materials on and off-site, customer interaction, setup exhibitions - <br/>
+        i.e. Decorex and Homemakers, etc, traveled internationally for businwss purposes and training.</p>
       </p>
     </Media.Body>
   </Media>
-</div>;
+
 </div> 
 )
 export default myResume;
